@@ -200,7 +200,7 @@ html {
 
 body {
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: Source Sans Pro, sans-serif;
 }
 
 h1 {
@@ -351,8 +351,31 @@ header {
 /* hero */
 .automation {
   margin: 4rem 0 0 5.5rem;
+  color: #fff;
+}
+
+.automation-head {
   font-size: 2.7rem;
   font-weight: 600;
-  color: #fff;
+}
+
+.automation-body {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.btn {
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  background-color: #f4895e;
+  border: 2px solid #f4895e;
+}
+
+.btn-know {
+  padding: 0.7rem 0.8rem;
+  font-size: 1rem;
+  background: rgba(30, 7, 7, 0.1);
+  border: 2px solid rgba(30, 7, 7, 0.005);
+  margin-left: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
