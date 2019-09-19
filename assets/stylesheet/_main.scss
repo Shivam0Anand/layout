@@ -8,7 +8,13 @@ header {
 }
 
 .logo {
-  color: #fff;
+  color: $textLight;
+  display: flex;
+}
+
+.logo h1 {
+  margin-top: 8px;
+  margin-left: 5px;
   font-size: 1.5rem;
 }
 
@@ -26,7 +32,7 @@ header {
 }
 
 .list a:hover {
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid $textLight;
 }
 
 .flex {
@@ -42,7 +48,7 @@ header {
 
 .automation {
   margin: 4rem 0 0 5.5rem;
-  color: #fff;
+  color: $textLight;
 }
 
 .automation-head {
@@ -69,4 +75,95 @@ header {
   border: 2px solid rgba(30, 7, 7, 0.005);
   margin-left: 2rem;
 }
-/*# sourceMappingURL=main.css.map */
+
+// Our Work
+
+.work {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $textDark;
+}
+
+.work-grid {
+  margin: 0 9rem;
+}
+
+.ai-col {
+  background-image: url(/assets/images/green-bg.png);
+  background-size: cover;
+  padding: 2rem;
+  text-align: left;
+}
+
+.ai {
+  height: 180px;
+  margin-bottom: 1rem;
+}
+
+.ai-heading {
+  color: $textLight;
+}
+.sub-head {
+  color: $textLight;
+  margin-top: 0.2rem;
+  margin-bottom: 1.2rem;
+}
+.ai-text {
+  color: $textLight;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.ai-btn {
+  margin-top: 1.1rem;
+  float: right;
+  color: $textLight;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.8rem;
+  background: rgba(30, 7, 7, 0.1);
+  border: 2px solid rgba(30, 7, 7, 0.005);
+}
+
+.truescore {
+  background-image: url(/assets/images/blue-bg.png);
+  padding: 2rem;
+
+  color: $textLight;
+}
+
+.image {
+  margin-top: 1rem;
+}
+
+.truescore-text {
+  margin: 2rem;
+}
+
+.truescore-text h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tr-btn {
+  float: right;
+  color: $textLight;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.8rem;
+  background: rgba(30, 7, 7, 0.1);
+  border: 2px solid rgba(30, 7, 7, 0.005);
+}
+
+.demand-ai {
+  background-image: url(/assets/images/blue-bg.png);
+  padding: 2rem;
+}
+
+// Case Studies
+
+.case-heading {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  color: $textDark;
+}
