@@ -482,9 +482,54 @@ header {
   padding: 2rem;
 }
 
+.case-wallpaper {
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), -webkit-gradient(linear, right top, left top, from(rgba(30, 75, 115, 0.61)), to(rgba(231, 182, 182, 0.63)));
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(to left, rgba(30, 75, 115, 0.61), rgba(231, 182, 182, 0.63));
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom right, left, right;
+  margin-bottom: 5rem;
+  padding: 2rem 5rem 2rem 5rem;
+}
+
 .case-heading {
   margin-top: 7rem;
   margin-bottom: 2rem;
   color: #2f60ce;
+}
+
+.finance {
+  width: 58rem;
+  margin: 0 auto;
+  background: #fff;
+  padding: 3rem;
+  color: rgba(65, 65, 65, 0.897);
+}
+
+.finance h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.finance p {
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.opt-case {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.credit-score {
+  padding: 30px;
+  width: 195px;
+  height: 195px;
+  color: #4ec1b2;
+  font-size: 0.9rem;
+  text-align: center;
+  -webkit-box-shadow: 2px 2px 25px #aaa;
+          box-shadow: 2px 2px 25px #aaa;
+  margin-right: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
