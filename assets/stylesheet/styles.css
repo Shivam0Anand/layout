@@ -380,7 +380,7 @@ p {
 
 header {
   height: 100vh;
-  background-image: url(/assets/images/header_image.jpg);
+  background-image: url(../images/header_image.jpg);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
@@ -578,7 +578,7 @@ nav {
 }
 
 .ai-col {
-  background-image: url(/assets/images/green-bg.png);
+  background-image: url(../images/green-bg.png);
   background-size: cover;
   padding: 2rem;
   text-align: left;
@@ -625,7 +625,7 @@ nav {
 }
 
 .truescore {
-  background-image: url(/assets/images/blue-bg.png);
+  background-image: url(../images/blue-bg.png);
   padding: 2rem;
   color: #fff;
 }
@@ -663,7 +663,7 @@ nav {
 }
 
 .demand-ai {
-  background-image: url(/assets/images/blue-bg.png);
+  background-image: url(../images/blue-bg.png);
   padding: 2rem;
 }
 
@@ -749,9 +749,6 @@ nav {
     margin-left: 0;
   }
   .truescore {
-    width: 90%;
-  }
-  .demand-ai {
     width: 90%;
   }
   .work-grid {
