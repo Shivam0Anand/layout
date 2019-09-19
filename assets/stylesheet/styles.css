@@ -203,6 +203,8 @@ a {
   .grid-row2 {
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
   }
 }
 
@@ -752,10 +754,10 @@ nav {
     margin-left: 0;
   }
   .truescore {
-    width: 80%;
+    width: 100%;
   }
   .demand-ai {
-    width: 80%;
+    width: 100%;
   }
   .work-grid {
     margin: 0;
