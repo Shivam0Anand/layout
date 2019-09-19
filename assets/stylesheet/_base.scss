@@ -35,6 +35,29 @@ h6 {
 p {
   font-size: 1rem;
 }
+
+// Scrollbar
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 2, 141, 0.664);
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 2, 141, 0.664);
+}
+
 // Alinging text
 .text-left {
   text-align: left;
@@ -80,4 +103,21 @@ p {
 .img-responsive {
   width: 100%;
   height: auto;
+}
+
+.btn-animation {
+  animation: btnZoom 2s ease-in-out;
+}
+
+@keyframes btnZoom {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
 }

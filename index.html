@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/assets/images/apple-touch-icon-152x152.png" />
     <title>Document</title>
     <link
       href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap"
@@ -11,6 +12,8 @@
     />
     <!-- <script src="https://kit.fontawesome.com/2b05622bfb.js"></script> -->
     <link rel="stylesheet" href="assets/stylesheet/styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header>
@@ -49,9 +52,11 @@
           performance and profitability
         </p>
 
-        <button class="automation btn">Contact Us</button>
+        <button class="automation btn btn-animation">Contact Us</button>
 
-        <button class="automation btn-know">I want to know more</button>
+        <button class="automation btn-know btn-animation">
+          I want to know more
+        </button>
       </div>
     </header>
 
@@ -61,7 +66,7 @@
       <section class="wrapper">
         <h3 class="text-center work">Our Work</h3>
         <div class="work-grid grid-col2">
-          <article class="ai-col">
+          <article class="ai-col" data-aos="fade-right">
             <div class="text-center">
               <img class="ai" src="assets/images/our_work_AI.svg" alt="AI" />
             </div>
@@ -75,10 +80,10 @@
                 maintenance.</span
               >
             </p>
-            <button class="ai-btn">Learn More</button>
+            <button class="ai-btn btn-animation">Learn More</button>
           </article>
           <article class="grid-row2">
-            <div class="truescore">
+            <div class="truescore" data-aos="fade-left">
               <div class="align-start">
                 <div class="image">
                   <img
@@ -92,7 +97,7 @@
                   <p>Real time Bank statement extraction and scoring</p>
                 </div>
               </div>
-              <button class="tr-btn">Learn More</button>
+              <button class="tr-btn btn-animation">Learn More</button>
             </div>
             <div class="demand-ai">
               <div class="align-start">
@@ -110,7 +115,7 @@
                   </p>
                 </div>
               </div>
-              <button class="tr-btn">Learn More</button>
+              <button class="tr-btn btn-animation">Learn More</button>
             </div>
           </article>
         </div>
@@ -152,6 +157,24 @@
           </div>
         </article>
       </section>
+      <section>
+        <h3 class="case-heading text-center">HOW WE DO IT</h3>
+        <div class="do-it-text">
+          <p class="text-center">
+            Our engine bridges the data currently stored in silos and organises
+            them before applying Machine Learning and Artificial Intelligence
+            algorithms to provide with accurate predictions, actionable
+            Insights, help for business decision-making as well as automations
+          </p>
+        </div>
+        <article></article>
+      </section>
     </main>
+
+    <script>
+      AOS.init({
+        duration: 1200
+      });
+    </script>
   </body>
 </html>
