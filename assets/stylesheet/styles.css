@@ -197,9 +197,12 @@ a {
   .grid-col2 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    width: 100%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .grid-row2 {
+    display: -ms-grid;
+    display: grid;
   }
 }
 
@@ -745,14 +748,14 @@ nav {
     font-size: 16px;
   }
   .ai-col {
-    width: 90%;
+    width: 100%;
     margin-left: 0;
   }
   .truescore {
-    width: 90%;
+    width: 80%;
   }
   .demand-ai {
-    width: 90%;
+    width: 80%;
   }
   .work-grid {
     margin: 0;
