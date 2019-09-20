@@ -175,6 +175,7 @@ a {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+  margin-top: 3rem;
 }
 
 .grid-col4 {
@@ -636,6 +637,7 @@ nav {
 }
 
 .image {
+  text-align: center;
   margin-top: 1rem;
 }
 
@@ -737,6 +739,142 @@ nav {
   margin: 0 auto;
   -webkit-box-shadow: 2px 2px 20px #aaa;
           box-shadow: 2px 2px 20px #aaa;
+}
+
+.visualization h4 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333333;
+}
+
+.visualization-text {
+  color: #333333;
+  padding: 1rem;
+  text-align: center;
+}
+
+.analytical-wallpaper {
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), -webkit-gradient(linear, left top, left bottom, from(rgba(207, 205, 205, 0.61)), to(rgba(253, 253, 253, 0.212)));
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(to bottom, rgba(207, 205, 205, 0.61), rgba(253, 253, 253, 0.212));
+  margin-bottom: 7rem;
+}
+
+.analytical {
+  width: 57rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.analytical-heading {
+  position: relative;
+  bottom: 56%;
+  left: 5%;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.analytical-options {
+  width: 110%;
+  position: relative;
+  bottom: 85%;
+  left: 20%;
+}
+
+.box {
+  width: 70%;
+  height: 80%;
+  border-right: 3px dashed rgba(43, 0, 199, 0.274);
+}
+
+.blank {
+  width: 65%;
+}
+
+.blank-r {
+  width: 80%;
+}
+
+.card {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-values {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255, 255, 255, 0.61);
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 20px rgba(199, 55, 55, 0.479);
+          box-shadow: 2px 2px 20px rgba(199, 55, 55, 0.479);
+}
+
+.serial {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #e9eef9;
+  margin-right: 2rem;
+}
+
+.serial-r p,
+.serial p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2f60ce;
+}
+
+.serial-r {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #e9eef9;
+  margin-right: 1rem;
+}
+
+.card-text {
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
+
+.card-text-r h4,
+.card-text h4 {
+  font-size: 1rem;
+  color: #2f60ce;
+}
+
+.card-text-r p,
+.card-text p {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.card-text-r {
+  margin-right: 2rem;
+  margin-left: 4rem;
+}
+
+.contact-us {
+  height: 50vh;
+  background-image: url(../images/contact_us.jpg);
+  padding-top: 5rem;
+}
+
+.contact-us p,
+.contact-us h4 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.contact-btn {
+  color: #fff;
+  margin-right: 5rem;
 }
 
 @media all and (max-width: 768px) {
