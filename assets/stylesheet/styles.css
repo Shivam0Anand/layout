@@ -166,7 +166,7 @@ a {
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .grid-col3 {
@@ -202,6 +202,12 @@ a {
         grid-template-columns: 100%;
   }
   .grid-row2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  .grid-col3 {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 100%;
@@ -674,8 +680,8 @@ nav {
 }
 
 .case-wallpaper {
-  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), -webkit-gradient(linear, right top, left top, from(rgba(30, 75, 115, 0.61)), to(rgba(231, 182, 182, 0.63)));
-  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(to left, rgba(30, 75, 115, 0.61), rgba(231, 182, 182, 0.63));
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), -webkit-gradient(linear, left top, left bottom, from(rgba(207, 205, 205, 0.61)), to(rgba(253, 253, 253, 0.212)));
+  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png), linear-gradient(to bottom, rgba(207, 205, 205, 0.61), rgba(253, 253, 253, 0.212));
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
   margin-bottom: 5rem;
@@ -759,7 +765,7 @@ nav {
 }
 
 .analytical {
-  width: 57rem;
+  width: 55rem;
   margin: 0 auto;
   padding-top: 5rem;
 }
@@ -958,6 +964,28 @@ footer {
   }
   .credit-score {
     width: 100%;
+  }
+  .do-it-text {
+    width: 100%;
+  }
+  .analytical {
+    width: 100%;
+  }
+  .blank {
+    display: none;
+  }
+  .blank-r {
+    display: none;
+  }
+  .card {
+    width: 100%;
+    display: block;
+  }
+  .analytical-options {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

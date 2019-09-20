@@ -8,7 +8,7 @@
 .grid-col2 {
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 .grid-col3 {
   display: grid;
@@ -38,5 +38,9 @@
     display: grid;
     grid-template-columns: 100%;
     // width: 90%;
+  }
+  .grid-col3 {
+    display: grid;
+    grid-template-columns: 100%;
   }
 }

@@ -234,7 +234,11 @@ nav {
 
 .case-wallpaper {
   background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png),
-    linear-gradient(to left, rgba(30, 75, 115, 0.61), rgba(231, 182, 182, 0.63));
+    linear-gradient(
+      to bottom,
+      rgba(207, 205, 205, 0.61),
+      rgba(253, 253, 253, 0.212)
+    );
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
   margin-bottom: 5rem;
@@ -323,7 +327,7 @@ nav {
 }
 
 .analytical {
-  width: 57rem;
+  width: 55rem;
   margin: 0 auto;
   // box-shadow: 2px 2px 20px #aaa;
   //   margin-bottom: 5rem;
@@ -508,5 +512,27 @@ footer {
   }
   .credit-score {
     width: 100%;
+  }
+  .do-it-text {
+    width: 100%;
+  }
+  .analytical {
+    width: 100%;
+  }
+  .blank {
+    display: none;
+  }
+  .blank-r {
+    display: none;
+  }
+  .card {
+    width: 100%;
+    display: block;
+  }
+  .analytical-options {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
   }
 }
