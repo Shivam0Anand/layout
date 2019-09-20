@@ -129,7 +129,6 @@ nav {
   background: #888888b9;
   border: 0;
   box-shadow: 2px 2px 20px #000;
-  margin-right: 4px;
   cursor: pointer;
 }
 
@@ -414,6 +413,7 @@ nav {
 
 .contact-us {
   height: 50vh;
+  text-align: center;
   background-image: url(../images/contact_us.jpg);
   padding-top: 5rem;
 }
