@@ -428,7 +428,29 @@ nav {
   color: $textLight;
   margin-right: 5rem;
 }
+// Footer
 
+footer {
+  background: #2f60ce;
+}
+.copyright {
+  font-size: 0.7rem;
+  color: #fff;
+}
+.font-awesome {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.font-awesome i {
+  margin-right: 1rem;
+}
+.newsletter {
+  background: transparent;
+  padding: 5px 2rem;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 15px;
+}
 // Meia query
 
 @media all and (max-width: 768px) {
