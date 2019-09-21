@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  background-image: url(../images/header_image.jpg);
+  background: linear-gradient(to top, #2f5fce00, #2f60ce);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
 .data {
@@ -145,7 +145,7 @@ nav {
 }
 
 .ai-col {
-  background-image: url(../images/green-bg.png);
+  background: linear-gradient(to right, #018845, #01884400);
   background-size: cover;
   padding: 2rem;
   text-align: left;
@@ -188,11 +188,15 @@ nav {
 }
 
 .truescore {
-  background-image: url(../images/blue-bg.png);
+  background: linear-gradient(to bottom, #07017c96, rgba(60, 59, 80, 0.212));
   padding: 2rem;
   color: $textLight;
 }
-
+.truescore-fas {
+  font-size: 8rem;
+  margin-top: 1rem;
+  color: $textLight;
+}
 .image {
   text-align: center;
   margin-top: 1rem;
@@ -226,19 +230,18 @@ nav {
 }
 
 .demand-ai {
-  background-image: url(../images/blue-bg.png);
+  background: linear-gradient(to top, #07017c96, rgba(60, 59, 80, 0.212));
   padding: 2rem;
 }
 
 // Case Studies
 
 .case-wallpaper {
-  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png),
-    linear-gradient(
-      to bottom,
-      rgba(207, 205, 205, 0.61),
-      rgba(253, 253, 253, 0.212)
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(207, 205, 205, 0.61),
+    rgba(253, 253, 253, 0.212)
+  );
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
   margin-bottom: 5rem;
@@ -249,6 +252,9 @@ nav {
   margin-top: 7rem;
   margin-bottom: 2rem;
   color: $textDark;
+}
+.case-fas {
+  font-size: 7rem;
 }
 
 // Finance in Case studies
@@ -313,16 +319,20 @@ nav {
   padding: 1rem;
   text-align: center;
 }
-
+.excell-fas {
+  font-size: 7rem;
+  margin-bottom: 1rem;
+  margin-bottom: 0 auto;
+  color: orange;
+}
 // Analytical Stage
 
 .analytical-wallpaper {
-  background-image: url(https://mdn.mozillademos.org/files/11307/bubbles.png),
-    linear-gradient(
-      to bottom,
-      rgba(207, 205, 205, 0.61),
-      rgba(253, 253, 253, 0.212)
-    );
+  background: linear-gradient(
+    to bottom,
+    rgba(207, 205, 205, 0.61),
+    rgba(253, 253, 253, 0.212)
+  );
   margin-bottom: 7rem;
 }
 
@@ -418,7 +428,7 @@ nav {
 .contact-us {
   height: 50vh;
   text-align: center;
-  background-image: url(../images/contact_us.jpg);
+  background: linear-gradient(to top, #2f60ce, #2f5fce00);
   padding-top: 5rem;
 }
 .contact-us p,
