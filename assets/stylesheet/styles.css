@@ -562,6 +562,10 @@ nav {
   border: 2px solid #f4895e;
 }
 
+.btn a {
+  color: #fff;
+}
+
 .btn-know {
   padding: 0.7rem 0.8rem;
   font-size: 1rem;
