@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  background: linear-gradient(to top, #2f5fce00, #2f60ce);
+  background: linear-gradient(to top, #2f5fce8c, #2f60ce);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
 .data {
@@ -54,6 +54,9 @@ header {
 }
 nav {
   position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 100px;
 }
 .flex {
   display: -webkit-box;
@@ -148,7 +151,7 @@ nav {
 }
 
 .ai-col {
-  background: linear-gradient(to right, #018845, #01884400);
+  background: linear-gradient(to right, #018845, #0188448c);
   background-size: cover;
   padding: 2rem;
   text-align: left;
@@ -191,7 +194,7 @@ nav {
 }
 
 .truescore {
-  background: linear-gradient(to bottom, #07017c96, rgba(60, 59, 80, 0.212));
+  background: linear-gradient(to bottom, #07017c, #07017c83);
   padding: 2rem;
   color: $textLight;
 }
@@ -233,7 +236,7 @@ nav {
 }
 
 .demand-ai {
-  background: linear-gradient(to top, #07017c96, rgba(60, 59, 80, 0.212));
+  background: linear-gradient(to top, #07017c, #07017c83);
   padding: 2rem;
 }
 
@@ -242,8 +245,8 @@ nav {
 .case-wallpaper {
   background: linear-gradient(
     to bottom,
-    rgba(207, 205, 205, 0.61),
-    rgba(253, 253, 253, 0.212)
+    rgba(207, 205, 205, 0.863),
+    rgba(253, 253, 253, 0.664)
   );
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
@@ -352,7 +355,7 @@ nav {
   bottom: 56%;
   left: 5%;
   font-size: 3rem;
-  color: $textLight;
+  color: rgba(0, 0, 0, 0.61);
 }
 .analytical-options {
   width: 110%;
@@ -437,7 +440,7 @@ nav {
 .contact-us p,
 .contact-us h4 {
   text-align: center;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.61);
   margin-bottom: 2rem;
 }
 

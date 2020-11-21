@@ -161,8 +161,6 @@ a {
   padding: 16px 30px;
 }
 
-
-
 .grid-col2 {
   display: -ms-grid;
   display: grid;
@@ -394,8 +392,8 @@ p {
 
 header {
   height: 100vh;
-  background: -webkit-gradient(linear, left bottom, left top, from(#2f5fce00), to(#2f60ce));
-  background: linear-gradient(to top, #2f5fce00, #2f60ce);
+  background: -webkit-gradient(linear, left bottom, left top, from(#2f5fce8c), to(#2f60ce));
+  background: linear-gradient(to top, #2f5fce8c, #2f60ce);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
@@ -461,9 +459,9 @@ header {
 
 nav {
   position: absolute;
-    width: 100%;
+  width: 100%;
   margin: 0 auto;
-  padding: 16px 30px;
+  padding: 16px 100px;
 }
 
 .flex {
@@ -599,8 +597,8 @@ nav {
 }
 
 .ai-col {
-  background: -webkit-gradient(linear, left top, right top, from(#018845), to(#01884400));
-  background: linear-gradient(to right, #018845, #01884400);
+  background: -webkit-gradient(linear, left top, right top, from(#018845), to(#0188448c));
+  background: linear-gradient(to right, #018845, #0188448c);
   background-size: cover;
   padding: 2rem;
   text-align: left;
@@ -647,8 +645,8 @@ nav {
 }
 
 .truescore {
-  background: -webkit-gradient(linear, left top, left bottom, from(#07017c96), to(rgba(60, 59, 80, 0.212)));
-  background: linear-gradient(to bottom, #07017c96, rgba(60, 59, 80, 0.212));
+  background: -webkit-gradient(linear, left top, left bottom, from(#07017c), to(#07017c83));
+  background: linear-gradient(to bottom, #07017c, #07017c83);
   padding: 2rem;
   color: #fff;
 }
@@ -693,14 +691,14 @@ nav {
 }
 
 .demand-ai {
-  background: -webkit-gradient(linear, left bottom, left top, from(#07017c96), to(rgba(60, 59, 80, 0.212)));
-  background: linear-gradient(to top, #07017c96, rgba(60, 59, 80, 0.212));
+  background: -webkit-gradient(linear, left bottom, left top, from(#07017c), to(#07017c83));
+  background: linear-gradient(to top, #07017c, #07017c83);
   padding: 2rem;
 }
 
 .case-wallpaper {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(207, 205, 205, 0.61)), to(rgba(253, 253, 253, 0.212)));
-  background: linear-gradient(to bottom, rgba(207, 205, 205, 0.61), rgba(253, 253, 253, 0.212));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(207, 205, 205, 0.863)), to(rgba(253, 253, 253, 0.664)));
+  background: linear-gradient(to bottom, rgba(207, 205, 205, 0.863), rgba(253, 253, 253, 0.664));
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom right, left, right;
   margin-bottom: 5rem;
@@ -805,7 +803,7 @@ nav {
   bottom: 56%;
   left: 5%;
   font-size: 3rem;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.61);
 }
 
 .analytical-options {
@@ -905,7 +903,7 @@ nav {
 .contact-us p,
 .contact-us h4 {
   text-align: center;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.61);
   margin-bottom: 2rem;
 }
 
