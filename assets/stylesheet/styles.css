@@ -161,11 +161,7 @@ a {
   padding: 16px 30px;
 }
 
-.wrapperNav {
-  width: 100%;
-  margin: 0 auto;
-  padding: 16px 30px;
-}
+
 
 .grid-col2 {
   display: -ms-grid;
@@ -465,6 +461,9 @@ header {
 
 nav {
   position: absolute;
+    width: 100%;
+  margin: 0 auto;
+  padding: 16px 30px;
 }
 
 .flex {
